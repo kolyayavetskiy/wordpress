@@ -1,0 +1,32 @@
+index.php - головний файл, що відображає сторінку.
+http://wordpress/ - головна сторінка URL
+
+wp_lessons.sql - БД, знаходиться в кореневій папці
+
+Плагін з шорткодом:
+C:\OSPanel\domains\wordpress\wp-content\plugins\input_data
+
+input_data.php - файл з шорткодом, запитами до бд.
+update-user.php - файл з функцією для зміни даних користувачів.
+
+Підключення до БД відбувається у файлі wp-config.php в кореневій папці.
+
+C:\OSPanel\domains\wordpress\wp-content\themes\twentynineteen - шлях до вибраної теми.
+В папці з темою є:
+
+footer.php
+header.php
+
+new-page.php - файл, который отвечает за отображение страницы, на которой вызывается шорткод (плагин шорта должен быть активирован). - URL - http://wordpress/new-page/
+
+list_of_users.php - файл, который отвечает за вывод всей информации о юзере. Либо о всех юзерах для администратора. - URL - http://wordpress/list_of_users/
+ 
+input_data.css - css файл з стилями до таску.
+
+admin:
+    login: root
+    password: nik20010601
+
+user:
+    login: kolya
+    password: 12345

@@ -1,0 +1,56 @@
+/*input:invalid:not(:placeholder-shown) {border-color: red;}
+    input:valid:not(:placeholder-shown) {border-color: green;}*/
+#updateBtn {
+    background-color: yellow;
+    color: black;
+    border: orange 2px solid;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#reset{
+    background: red;
+    border: darkred 2px solid;
+    margin-left: 30%;
+}
+#name, #email, #phone, #first_calendar, #second_calendar, #name_to_change {
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #20b2aa;
+    border-color: lightseagreen;
+}
+#end_date, #start_date{
+    width: 200px;
+    display: inline-block;
+}
+
+#user_login, #user_pass{
+    border-color: lightseagreen;
+}
+#l_color, #l_country{
+    display: inline-block;
+    width: 320px;
+}
+#update_form, #loginform {
+    margin: 0% 25% 0% 25%;
+    border: lightseagreen 5px solid;
+    padding: 30px 30px 40px 80px;
+    border-radius: 15px;
+}
+label {
+    font-style: italic;
+    font-weight: bold;
+    width: 250px;
+    display: inline-block;
+}
+select {
+    background-color: lightseagreen;
+}
+#no_login{
+    margin-left: 20%;
+    color: red;
+}
+
+
+
